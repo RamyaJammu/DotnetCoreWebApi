@@ -1,10 +1,25 @@
-﻿bin/
+﻿# Build and cache
+bin/
 obj/
 .vs/
+
+# User-specific
 *.user
 *.suo
+
+# Sensitive files
 appsettings.Development.json
 secrets.json
+
+# Logs
 *.log
+
+# OS junk
 .DS_Store
 Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*~
+*.swp
